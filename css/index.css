@@ -1,0 +1,618 @@
+    @font-face {
+        font-family: Breve-Sans-Text-light;
+        src: url(../fonts/Breve\ Sans\ Text\ Light.otf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Breve-Sans-Text-Medium;
+    background-color: #141822;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+header {
+    background-color: #1f2532;
+    width: 100%;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    width: 82%;
+    margin: 0 auto;
+    padding: 30px 0;
+    align-items: center;
+}
+
+.logo {
+    width: 150px;
+    height: 50px;
+}
+
+.menu-principal {
+    color: #fff;
+    display: flex;
+    gap: 15px;
+    font-size: 13px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+}
+
+.acessar {
+    color: #fff;
+    background-color: #05a9d0;
+    padding: 7px 15px;
+    border-radius: 25px;
+}
+
+/* ---------------------------------------------- */
+
+main {
+    width: 100%;
+}
+
+.section-1 {
+    background-color: #1f2532;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    font-family: Breve-Sans-Text-Medium;
+    font-weight: 500;
+    overflow-x: hidden;
+}
+
+.section-1 .esquerda {
+    color: #fff;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.section-1 .titulo span {
+    color: #05a9d0;
+}
+
+.section-1 .titulo {
+    font-size: 60px;
+    text-align: center;
+    width: 90%;
+    margin-left: 40px;
+    
+    
+}
+
+.section-1 .esquerda p {
+    font-size: 50px;
+    width: 75%;
+    margin-top: 15px;
+    margin-left: 125px;
+    line-height: 0.9;
+}
+
+.section-1 .esquerda .player {
+    margin-top: 25px;
+}
+
+.section-1 .esquerda .player {
+    display: flex;
+    gap: 5px;
+    margin-left: 110px;
+    align-items: center;
+}
+
+.esquerda .player span {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.back,
+.next {
+    width: 25px;
+    height: 15px;
+    cursor: pointer;
+}
+
+.play {
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+}
+
+.progresso {
+    margin-left: 15px;
+    width: 225px;
+}
+
+.progresso span {
+    font-size: 10px;
+    color: #d9d9d9;
+}
+
+.progresso input {
+    overflow: hidden;
+    width: 100%;
+    -webkit-appearance: none;
+    height: 5px;
+    border-radius: 10px;
+    background-color: #948b8b;
+    cursor: pointer;
+}
+
+.progresso input::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 1px;
+    height: 20px;
+    background: #05a9d0;
+    box-shadow: -400px 0 0 400px #05a9d0;
+}
+
+.pulse {
+    animation: pulse 0.7s infinite;
+
+    animation-direction: alternate;
+    -webkit-animation-name: pulse;
+    animation-name: pulse;
+}
+
+@-webkit-keyframes pulse {
+    0% {
+        /* -webkit-transform: scale(1); */
+        -webkit-filter: brightness(100%);
+    }
+    100% {
+        /* -webkit-transform: scale(1.1); */
+        -webkit-filter: brightness(200%);
+    }
+}
+
+@keyframes pulse {
+    0% {
+        /* transform: scale(1); */
+        filter: brightness(100%);
+    }
+    100% {
+        /* transform: scale(1.1); */
+        filter: brightness(200%);
+    }
+}
+
+.section-1 .direita {
+    position: relative;
+    right: 0;
+    width: 60%;
+}
+
+.section-1 .direita img {
+    width: 100%;
+}
+
+.section-2 {
+    width: 100%;
+    background-color: #1f2532;
+    padding: 50px 0;
+}
+
+.section-2 div {
+    width: 80%;
+    height: 250px;
+    background-color: #fff;
+    margin: 0 auto;
+
+    background: radial-gradient(
+            61.9% 325.48% at -0.51% 18.1%,
+            #0e2944 0%,
+            #141822 79.69%
+        )
+        /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 50px;
+    color: #fff;
+}
+
+.section-2 div h5 {
+    font-family: Breve-Sans-Text-Medium;
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 200;
+    letter-spacing: -0.035em;
+    width: 25%;
+}
+
+.section-2 div p {
+    font-family: Breve-Sans-Text-light;
+    display: block;
+    width: 35%;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.section-2 .ultimo-texto {
+    width: 25%;
+}
+
+.section-4 {
+    width: 100%;
+    background-color: #1f2532;
+    padding: 0px 0 40px 0;
+}
+
+.section-4 .borda {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 2px;
+
+    /* border: 2px solid; */
+    border-radius: 20px;
+    background: linear-gradient(90deg, #0071e3 1.31%, #0bfcfa 100%);
+    /* border-image-slice: 1; */
+}
+
+.section-4 .conteudo {
+    background-color: #1f2532;
+    padding: 50px;
+    border-radius: 20px;
+    font-family: 'Breve-Sans-Text-light';
+}
+
+.section-4 .conteudo h4 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.section-4 .conteudo p {
+    margin: 15px 0 25px 0;
+    color: #0bfcfa;
+}
+
+.section-4 .conteudo .destaque {
+    color: #05a9d0;
+}
+
+.section-5 {
+    width: 100%;
+
+    display: flex;
+    background-color: #141822;
+}
+
+.section-5 .esquerda {
+    width: 55%;
+    padding-bottom: 2%;
+    height: auto;
+}
+
+.section-5 .conteudo {
+    color: #fff;
+
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 75px;
+}
+
+.section-5 .conteudo h4 {
+    font-family: Breve-Sans-Text-Medium;
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 50px;
+    margin-left: 55px;
+}
+
+.section-5 .diferenciais {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.section-5 .diferencial {
+    display: flex;
+    font-family: "Alef", sans-serif;
+    width: 45%;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.section-5 .diferencial img {
+    width: 30px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.section-5 .diferencial h5 {
+    color: #0bfcfa;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Breve-Sans-Text-Medium;;
+}
+
+.section-5 .diferencial p {
+    margin-top: 5px;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.section-5 .direita {
+    width: 45%;
+    height: auto;
+}
+
+.section-5 .direita img {
+    width: 100%;
+    height: 100%;
+}
+
+.saiba-mais {
+    border-radius: 20px;
+    font-family: "Alef";
+    background: linear-gradient(90deg, #0071e3 1.31%, #0bfcfa 100%);
+    padding: 2px;
+    display: block;
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 30px;
+    text-align: center;
+}
+
+.saiba-mais p {
+    border-radius: 20px;
+    background-color: #141822;
+    padding: 10px;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+}
+
+.saiba-mais p img {
+    width: 15px;
+    margin-left: 7px;
+}
+
+.section-6 {
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/home/fundo_microfone.png);
+    background-size: cover;
+    /* margin-top: -50px; */
+    position: relative;
+    z-index: -1;
+}
+
+footer {
+    width: 100%;
+    background-color: #1f2532;
+    padding-bottom: 5px;
+}
+
+footer .privacidade {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.privacidade > div {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-family: "Alef", sans-serif;
+}
+
+.privacidade .destaque {
+    color: #0bfcfa;
+}
+
+.privacidade img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.privacidade a {
+    height: auto;
+    /* opacity: 0.9; */
+}
+
+footer .navegacao {
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .navegacao div {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+footer .navegacao div h5 {
+    font-size: 19px;
+}
+
+.fim-footer {
+    color: #fff;
+    text-align: center;
+
+    border-top: 2px solid transparent;
+    border-image: linear-gradient(90deg, #0071e3 1.31%, #0bfcfa 100%);
+    border-image-slice: 1;
+    padding-top: 10px;
+}
+
+.fim-footer img {
+    width: 100px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.fim-footer span {
+    font-size: 15px;
+}
+
+.redes {
+    width: 150px;
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.redes img {
+    width: 30px;
+}
+
+.menu-icon {
+    display: none;
+}
+
+.menu-icon img {
+    width: 30px;
+}
+
+/* responsivo */
+
+@media (max-width: 768px) {
+    .section-1 {
+        margin-top: -2rem;
+    }
+
+    .section-4 .conteudo {
+        width: 100%;
+    }
+
+    .section-4 .borda {
+        width: 100%;
+    }
+
+    .section-1 .esquerda {
+        width: 100%;
+    }
+
+    .section-1 .esquerda .player {
+        margin-left: 0;
+        width: 80%;
+    }
+
+    .section-1 .esquerda p {
+        margin-left: 0;
+    }
+
+    .section-1 .direita {
+        display: none;
+    }
+
+    .section-2 div {
+        flex-direction: column;
+        height: auto;
+        gap: 2em;
+        padding: 2rem 1rem;
+    }
+
+    .section-2 h5 {
+        text-align: center;
+    }
+
+    .section-2 h5,
+    .section-2 p {
+        width: 100% !important;
+    }
+
+    .section-5 .direita {
+        display: none;
+    }
+
+    .section-5 .esquerda {
+        width: 100%;
+    }
+
+    .menu-principal {
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 60%;
+        height: 100%;
+        flex-direction: column;
+        background-color: #141822;
+        padding: 5rem 0 5rem 3rem;
+        gap: 2rem;
+        transform: translateX(100%);
+        transition: transform 0.6s ease-in;
+    }
+
+    .menu-principal li {
+        width: 100%;
+    }
+
+    .menu-principal.open {
+        transform: translateX(0);
+        z-index: 9;
+    }
+
+    .menu-icon {
+        display: inline-block;
+        cursor: pointer;
+        position: relative;
+        z-index: 10;
+    }
+}
+
+@media (max-width: 500px) {
+    .diferenciais {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .diferencial {
+        width: 100% !important;
+    }
+
+    .privacidade {
+        flex-direction: column;
+        gap: 1.5rem;
+        margin-bottom: 2rem;
+    }
+
+    footer {
+        padding-top: 1rem;
+    }
+
+    footer .navegacao {
+        margin-top: 5rem;
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+
+    footer .navegacao div {
+        width: 100%;
+        text-align: center;
+    }
+
+    .saiba-mais {
+        margin-left: -25px;
+    }
+}

@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alef&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inika&display=swap');
+
+@font-face {
+    font-family: Breve-Sans-Text-Medium;
+    src: url(../fonts/BreveSansTextMedium.otf);
+}
