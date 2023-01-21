@@ -1,0 +1,104 @@
+@font-face {
+    font-family: Breve-Sans-Text-light;
+    src: url(/fonts/Breve\ Sans\ Text\ Light.otf);
+}
+
+@font-face {
+    font-family: Breve-Sans-Text-Medium;
+    src: url(/fonts/BreveSansTextMedium.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../images/bkd.png);
+    background-size: cover;
+    color: rgb(228, 228, 228);
+}
+
+main {
+    padding-top: 150px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+}
+
+.textos {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../images/luz.png);
+    filter: brightness(1.2);
+    background-size: cover;
+    background-position: center right;
+    text-align: center;
+    color: rgb(228, 228, 228);
+}
+
+#xy-txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.textos h1 {
+    font-family: Breve-Sans-Text-Medium;
+    font-size: 54px;
+    width: 80%;
+}
+
+.textos p {
+    font-family: Breve-Sans-Text-light;
+    font-size: 28px;
+}
+
+/*-------------lado-dir-------*/
+
+.form {
+    font-family: Breve-Sans-Text-light;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+input {
+    padding: 10px;
+    width: 350px;
+    height: 40px;
+    color: rgb(228, 228, 228);
+    border-radius: 15px;
+    font-size: 15px;
+    background-color: rgba(20, 24, 34, 1);
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.check {
+    width: 20px;
+    height: 20px;
+}
+
+.btnGrey {
+    width: 120px;
+    height: 45px;
+    color: rgb(228, 228, 228);
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.btnGrey:hover {
+    background-color: #0B7A9F;
+    cursor: pointer;
+}
+
+.linkCon {
+    color: #0B7A9F;
+}
