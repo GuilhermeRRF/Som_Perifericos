@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick-theme.css
+    "
+        />
+        <script
+            src="https://code.jquery.com/jquery-3.6.1.js"
+            integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+            crossorigin="anonymous"
+        ></script>
+        <script type="text/javascript" src="./js/slick.js"></script>
+
+        <link rel="stylesheet" href="./css/style.css" />
+        <link rel="stylesheet" href="../css/fonts.css" />
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="../index.html">
+                    <img
+                        src="../img/home/logo.png"
+                        alt="logo"
+                        class="logo pointer"
+                    />
+                </a>
+
+                <div class="menu-icon pointer" id="menu-icon-principal">
+                    <img src="../img/home/menu.png" alt="icone de menu" />
+                </div>
+
+                <ul class="menu-principal" id="menu-principal">
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="#quemSomos">Quem Somos</a></li>
+                    <li><a href="#diferenciais">Nossos diferenciais</a></li>
+                    <li>
+                        <a href="./index.html" class="acessar"
+                            >Acessar plataforma</a
+                        >
+                    </li>
+                </ul>
+            </nav>
+            <div class="pesquisar">
+                <!-- <img src="../img/home/menu.png" alt="" class="menu-icon" id="menu-icon-filtro" /> -->
+                <div class="pesquisa">
+                    <input type="text" name="" id="" placeholder="Pesquisar" />
+                    <a href="#">
+                        <img src="./img/search.png" alt="" />
+                    </a>
+                </div>
+                <img src="./img/mic.png" alt="" class="pointer" />
+                <img src="./img/amanda.jpg" alt="" class="perfil pointer" />
+            </div>
+        </header>
+
+        <main>
+            <section class="principal">
+                <h1><span>Som</span> Periférico</h1>
+                <div class="player">
+                    <img
+                        src="../img/home/back.png"
+                        alt=""
+                        class="back"
+                        id="back"
+                    />
+                    <img
+                        src="../img/home/play.png"
+                        alt=""
+                        class="play"
+                        id="play"
+                    />
+                    <img
+                        src="../img/home/next.png"
+                        alt=""
+                        class="next"
+                        id="next"
+                    />
+                    <div class="progresso">
+                        <span>
+                            <span class="atual" id="atual">00:00 </span>
+                            &nbsp; / &nbsp;
+                            <span class="total" id="total"> 00:00</span>
+                        </span>
+                        <input
+                            type="range"
+                            class=""
+                            id="progresso"
+                            value="25"
+                        />
+                    </div>
+                </div>
+                <div class="conteudo-1">
+                    <div class="esquerda">
+                        <div>
+                            <h4>10K+</h4>
+                            <span>Músicas</span>
+                        </div>
+                        <div>
+                            <h4>200+</h4>
+                            <span>Artista</span>
+                        </div>
+                        <div>
+                            <h4>25+</h4>
+                            <span>Gravadoras</span>
+                        </div>
+                    </div>
+
+                    <div class="direita">
+                        <p>
+                            Descubra novas músicas de artistas em crescente no
+                            mundo artistico. Deixe a música envolver você com
+                            áudio exclusivos, ouça em altíssima definição com
+                            nossa plataforma diversos artistas.
+                        </p>
+
+                        <p>
+                            O Som Periférico dá asceção a cultura brasileira,
+                            onde muitos artistas necessitam de uma oportunidade.
+                            Nossa missão é ajudar fazendo essa conexão. Além dos
+                            requisitos da lei federal, o Som Periférico está em
+                            conformidade com as leis estaduais e locais
+                            aplicáveis que regem a não discriminação na
+                            plataforma.
+                        </p>
+                        <img src="./img/bkd.png" alt="" />
+                    </div>
+                </div>
+            </section>
+
+            <section class="container-artistas">
+                <h3>Sertanejo</h3>
+                <div class="voltar" id="leftArrow">
+                    <p><</p>
+                </div>
+                <div class="avancar" id="rightArrow">
+                    <p>></p>
+                </div>
+
+                <div class="artistas" id="carousel">
+                    <div class="artista card">
+                        <a href="../Perfil/meuPerfil.html">
+                            <img
+                                src="./img/amanda.jpg"
+                                alt=""
+                                class="foto-artista"
+                            />
+                            <span class="nome">Amanda Amandita</span>
+                            <span>Artista</span>
+                        </a>
+                    </div>
+
+                    <div class="artista card">
+                        <a href="../Perfil/meuPerfil.html">
+                            <img
+                                src="./img/almeida.jpg"
+                                alt=""
+                                class="foto-artista"
+                            />
+                            <span class="nome">Gabriel Almeida</span>
+                            <span>Artista</span>
+                        </a>
+                    </div>
+
+                    <div class="artista card">
+                        <a href="../Perfil/meuPerfil.html">
+                            <img
+                                src="./img/Andersom.jpg"
+                                alt=""
+                                class="foto-artista"
+                            />
+                            <span class="nome">Anderson</span>
+                            <span>Artista</span>
+                        </a>
+                    </div>
+
+                    <div class="artista card">
+                        <a href="../Perfil/meuPerfil.html">
+                            <img
+                                src="./img/Guilherme.jpg"
+                                alt=""
+                                class="foto-artista"
+                            />
+                            <span class="nome">Guilherme</span>
+                            <span>Artista</span>
+                        </a>
+                    </div>
+
+                    <div class="artista card">
+                        <a href="../Perfil/meuPerfil.html">
+                            <img
+                                src="./img/Frankle.jpg"
+                                alt=""
+                                class="foto-artista"
+                            />
+                            <span class="nome">Frankle</span>
+                            <span>Artista</span>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="container-artistas">
+                <h3>MPB</h3>
+                <div class="voltar" id="leftArrow2">
+                    <p><</p>
+                </div>
+                <div class="avancar" id="rightArrow2">
+                    <p>></p>
+                </div>
+
+                <div class="artistas" id="carousel2">
+                    <div class="artista card2">
+                        <a href="../Perfil/meuPerfil.html">
+                            <img
+                                src="./img/amanda.jpg"
+                                alt=""
+                                class="foto-artista"
+                            />
+                            <span class="nome">Amanda Amandita</span>
+                            <span>Artista</span>
+                        </a>
+                    </div>
+
+                    <div class="artista card2">
+                        <a href="../Perfil/meuPerfil.html">
+                            <img
+                                src="./img/almeida.jpg"
+                                alt=""
+                                class="foto-artista"
+                            />
+                            <span class="nome">Gabriel Almeida</span>
+                            <span>Artista</span>
+                        </a>
+                    </div>
+
+                    <div class="artista card2">
+                        <a href="../Perfil/meuPerfil.html">
+                            <img
+                                src="./img/Andersom.jpg"
+                                alt=""
+                                class="foto-artista"
+                            />
+                            <span class="nome">Anderson</span>
+                            <span>Artista</span>
+                        </a>
+                    </div>
+
+                    <div class="artista card2">
+                        <a href="../Perfil/meuPerfil.html">
+                            <img
+                                src="./img/Guilherme.jpg"
+                                alt=""
+                                class="foto-artista"
+                            />
+                            <span class="nome">Guilherme</span>
+                            <span>Artista</span>
+                        </a>
+                    </div>
+
+                    <div class="artista card">
+                        <a href="../Perfil/meuPerfil.html">
+                            <img
+                                src="./img/Frankle.jpg"
+                                alt=""
+                                class="foto-artista"
+                            />
+                            <span class="nome">Frankle</span>
+                            <span>Artista</span>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="container-depoimentos">
+                <span>DEPOIMENTOS DE QUEM USA A NOSSA PLATAFORMA</span>
+                <div class="depoimentos">
+                    <img src="./img/cx1.png" alt="" />
+                    <img src="./img/cx2.png" alt="" />
+                    <img src="./img/cx3.png" alt="" />
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="navegacao">
+                <div>
+                    <h5>Conheça-nos</h5>
+                    <span>Sobre nós</span>
+                    <span>Redes sociais</span>
+                    <span>Comunicados</span>
+                </div>
+                <div>
+                    <h5>Deixo-nos ajudar você</h5>
+                    <a href="./login/index.html">
+                        <span>Sua conta</span>
+                    </a>
+                    <a href="./suporte/suporte/termos/index.html">
+                        <span>Termos de contrato</span>
+                    </a>
+                    <a href="./suporte/suporte.html">
+                        <span>FAQ</span>
+                    </a>
+                    <a href="./suporte/suporte/privacidade/index.html">
+                        <span>Privacidade</span>
+                    </a>
+                </div>
+                <div>
+                    <h5>Contatos</h5>
+                    <div class="redes">
+                        <img src="../img/home/face.png" alt="" />
+                        <img src="../img/home/insta.png" alt="" />
+                        <img src="../img/home/twitter.png" alt="" />
+                    </div>
+                    <br />
+                    <span>E-mail: SomPeriferico@gmail.com</span>
+                </div>
+            </div>
+            <div class="fim-footer">
+                <img src="../img/home/logo.png" class="logo" alt="" />
+                <div>
+                    <span>Condições de uso</span>
+                    <span> | </span>
+                    <span>Notificações de privacidade</span>
+                    <span> | </span>
+                    <span>Cookies</span>
+                    <span> | </span>
+                    <span>Anúncio baseados em interesses</span>
+                    <span> | </span>
+                    <span>&copy;2022 SomPeriferico.com</span>
+                </div>
+            </div>
+        </footer>
+
+        <audio src="" id="audio"></audio>
+
+        <script src="./js/index.js"></script>
+    </body>
+</html>

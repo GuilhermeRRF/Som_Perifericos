@@ -1,0 +1,147 @@
+@font-face {
+    font-family: Breve-Sans-Text-light;
+    src: url(/fonts/Breve\ Sans\ Text\ Light.otf);
+}
+
+@font-face {
+    font-family: Breve-Sans-Text-Medium;
+    src: url(/fonts/BreveSansTextMedium.otf);
+}
+
+main {
+    width: 100%;
+    color: #fff;
+    padding: 3rem 4rem 2rem 4rem;
+    font-family: Breve-Sans-Text-Medium;
+}
+
+
+main .conteudo {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+main .foto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main .foto img {
+    border-radius: 50%;
+}
+
+main .foto div {
+    display: flex;
+    margin-top: 1rem;
+    gap: 1.5rem;
+}
+
+main .bio {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+main .bio div {
+    display: flex;
+    flex-direction: column;
+}
+
+main .bio div span {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 25px;
+}
+
+main .bio p {
+    background: rgba(20, 24, 34, 0.4);
+    border-radius: 20px;
+    padding: 2rem;
+    font-family: Breve-Sans-Text-light;
+    max-width: 100%;
+    text-align: center;
+}
+h5{
+    font-family: Breve-Sans-Text-light;
+}
+
+main .notificacoes {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+main .notificacoes .notificacao {
+    width: 40px;
+    height: 40px;
+}
+
+.esconder {
+    display: none !important;
+}
+
+main .notificacoes {
+    position: relative;
+}
+#hoje {
+font-family: Breve-Sans-Text-medium;
+}
+
+main .notificacoes div {
+    width: 100%;
+    color: #000;
+    padding: 1rem;
+    background: rgba(183, 193, 216, 0.4);
+    border-radius: 2px;
+    /* position: absolute;
+    z-index: 2; */
+    bottom: 0;
+}
+
+.lista-notificacao {
+    margin-top: 1rem;
+}
+
+.lista-notificacao li {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.lista-notificacao li img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.lista-notificacao li > span {
+    font-size: 15px;
+    width: 150px;
+}
+
+.lista-notificacao .nome-notificacao {
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.lista-notificacao .acao {
+    color: #fff;
+    background: #05a9d0;
+    box-shadow: 0px 1.62162px 6.48649px #0d3b69;
+    border-radius: 2px;
+    padding: 0.5rem;
+}
+span{
+    font-family: Breve-Sans-Text-Medium;
+}
+.empregadores{
+    color: rgb(253, 253, 253);
+}
