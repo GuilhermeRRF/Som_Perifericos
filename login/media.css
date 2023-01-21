@@ -1,0 +1,148 @@
+/*vizualizacao no mobile*/
+
+
+@media only screen and (max-width:667px) {
+
+    .conteudo_total_1 {
+        width: 375px;
+        height: 150px;
+        background-image: url(img_login.jpg);
+    }
+
+    .conteudo_total_2 {
+        width: 30%;
+        height: 600px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        margin-top: 0;
+        margin-left: 0;
+
+    }
+
+
+    .conteundo_esquerdo {
+        width: 200px;
+        height: 200px;
+        margin-top: 200px;
+        position: relative;
+        display: flex;
+        text-align: center;
+        background-color: #ff11f3;
+
+
+    }
+
+
+    .conteudo_direito {
+        margin: 0;
+        margin-top: 0%;
+        margin-left: 20px;
+        padding: 0;
+        position: relative;
+        font-family: novafonte;
+    }
+
+    .img_instrumento {
+        display: none;
+        width: 100px;
+        height: 500px;
+        margin-top: 0;
+        margin-bottom: 0;
+        background-color: #ffffff;
+
+
+    }
+    
+    .titulo{
+        margin-left: 75px;
+        color:white;
+        font-family: novafonte;
+    }
+    
+
+
+
+    input {
+        width: 220px;
+        height: 30px;
+        color: white;
+        padding: 10px;
+        border-radius: 15px;
+        margin: 20px;
+        font-size: 15px;
+        font-family: novafonte;
+        background-color: rgba(20, 24, 34, 1);
+        border: 2px solid rgb(255, 255, 255);
+
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: row;
+        margin-right: 5px;
+
+    }
+
+
+
+    .button_Avancar:hover {
+        background-color: rgb(14, 84, 214);
+    }
+
+
+
+    #tic_inferior {
+        align-items: center;
+    }
+
+    #tic_inferior,
+    .esqueceu {
+        flex-direction: row;
+        background-color: blueviolet;
+    }
+
+    #tic_inferior,
+    label,
+    .esqueceu {
+        width: 20px;
+        height: 15px;
+        margin-left: 10px;
+        color: white;
+    }
+
+    .termo_inferior,
+    .termo_p {
+        text-align: center;
+        background-color: red;
+    }
+
+    .button_Avancar {
+        margin-left: 150px;
+        width: 100px;
+        height: 45px;
+        color: white;
+        background-color: #05A9D0;
+        padding-bottom: 25px;
+        border-radius: 15px;
+        margin-top: 20px;
+        margin-left: 100px;
+
+    }
+
+    @media only screen and (max-width:667px) {
+
+
+        .conteudo_direito {
+            margin: 0;
+            margin-top: 0%;
+            margin-left: 40px;
+            padding: 0;
+            position: relative;
+            font-family: novafonte;
+        }
+    
+    }
+
+
+}

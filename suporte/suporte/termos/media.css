@@ -1,0 +1,200 @@
+@media only screen and (max-width:667px) {
+
+
+    body {
+        font-family: "Alef";
+        background-color: #1f2532;
+    }
+    
+    a {
+        width: 290px;
+        height: auto;
+        color: inherit;
+        text-decoration: none;
+    }
+    
+    a.acessar{
+        width: 290px;
+        height: auto;
+    }
+    
+    li {
+        margin: 20px;
+        list-style: none;
+    }
+    
+    header {
+        display: flex;
+        justify-content: space-around;
+        background-color: #1f2532;
+        width: 290px;
+        height: auto;
+        margin: auto
+    }
+    
+    header nav {
+        display: flex;
+        justify-content: space-around;
+        width: 300px;
+        margin: 0 auto;
+        padding: 30px 0;
+        align-items: center;
+    }
+    
+    .logo {
+        width: 80px;
+        height: 15px;
+    }
+    
+    .menu-principal#menu-principal {
+        width: 290px;
+        height: auto;
+        color: #fff;
+        display: flex;
+        gap: 15px;
+        font-size: 20px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 600;
+    }
+    
+    .acessar {
+        width: 290px;
+        height: auto;
+        margin: auto;
+        color: #fff;
+        background-color: #05a9d0;
+        border-radius: 25px;
+        font-size: 13px;
+    }
+    section{
+        margin-left: 20px;
+        margin-right: 20px;
+        color: white;
+        font-family: novafonte;
+    }
+
+
+}
+
+@media (max-width: 768px) {
+    .section-1 {
+        margin-top: -2rem;
+    }
+
+    .section-4 .conteudo {
+        width: 100%;
+    }
+
+    .section-4 .borda {
+        width: 100%;
+    }
+
+    .section-1 .esquerda {
+        width: 100%;
+    }
+
+    .section-1 .esquerda .player {
+        margin-left: 0;
+        width: 80%;
+    }
+
+    .section-1 .esquerda p {
+        margin-left: 0;
+    }
+
+    .section-1 .direita {
+        display: none;
+    }
+
+    .section-2 div {
+        flex-direction: column;
+        height: auto;
+        gap: 2em;
+        padding: 2rem 1rem;
+    }
+
+    .section-2 h5 {
+        text-align: center;
+    }
+
+    .section-2 h5,
+    .section-2 p {
+        width: 100% !important;
+    }
+
+    .section-5 .direita {
+        display: none;
+    }
+
+    .section-5 .esquerda {
+        width: 100%;
+    }
+
+    .menu-principal {
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 60%;
+        height: 100%;
+        flex-direction: column;
+        background-color: #141822;
+        padding: 5rem 0 5rem 3rem;
+        gap: 2rem;
+        transform: translateX(100%);
+        transition: transform 0.6s ease-in;
+    }
+
+    .menu-principal li {
+        width: 100%;
+    }
+
+    .menu-principal.open {
+        transform: translateX(0);
+        z-index: 9;
+    }
+
+    .menu-icon {
+        display: inline-block;
+        cursor: pointer;
+        position: relative;
+        z-index: 10;
+    }
+}
+
+@media (max-width: 500px) {
+    .diferenciais {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .diferencial {
+        width: 100% !important;
+    }
+
+    .privacidade {
+        flex-direction: column;
+        gap: 1.5rem;
+        margin-bottom: 2rem;
+    }
+
+    footer {
+        padding-top: 1rem;
+    }
+
+    footer .navegacao {
+        margin-top: 5rem;
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+
+    footer .navegacao div {
+        width: 100%;
+        text-align: center;
+    }
+
+    .saiba-mais {
+        margin-left: -25px;
+    }
+}

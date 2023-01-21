@@ -1,0 +1,253 @@
+@font-face {
+    font-family: Breve-Sans-Text-light;
+    src: url(/fonts/Breve\ Sans\ Text\ Light.otf);
+}
+
+@font-face {
+    font-family: Breve-Sans-Text-Medium;
+    src: url(/fonts/BreveSansTextMedium.otf);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Breve-Sans-Text-Medium;
+    background-color: #1f2532;
+}
+main{
+    width: 100%;
+    height: auto;
+}
+.caixa_cima div {
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.caixa_cima h3 {
+    width: 200px;
+    color: inherit;
+    text-decoration: none;
+    color: rgb(228, 228, 228);
+}
+
+.caixa_baixo h3 {
+    width: 200px;
+    color: inherit;
+    text-decoration: none;
+    color: rgb(228, 228, 228);
+}
+
+
+li {
+    margin: 20px;
+    list-style: none;
+}
+
+a {
+    color: rgb(228, 228, 228);
+    font-style: normal;
+    text-decoration: none;
+}
+
+header {
+    background-color: #1f2532;
+    width: 100%;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    width: 82%;
+    margin: 0 auto;
+    padding: 30px 0;
+    align-items: center;
+}
+
+.logo {
+    width: 80px;
+    height: 15px;
+}
+
+.menu-principal {
+    display: flex;
+    gap: 15px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+article{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+}
+section {
+    width: 55%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    color: rgb(228, 228, 228);
+    font-family: Breve-Sans-Text-light;
+}
+.Titulo_inferior {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: rgb(228, 228, 228);
+}
+.barra_principal {
+    justify-content: center;
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.barra{
+    width: 50%;
+    height: 30px;
+    border: none;
+}
+#lupa, #imagem_lupa  {
+  width: 25px;
+  height: 27px;
+}
+
+button{
+    border: none;
+    cursor: pointer;
+}
+
+.caixa_cima {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.caixa {
+   flex-direction: row;
+   border-radius: 10px;
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto_div {
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+}
+#verde{
+    background-color: #006450;
+}
+#azul{
+    background-color: #3523A9;
+}
+#verde-l{
+    background-color: #B0D23D;
+}
+#vermelho{
+    background-color: #FF2427;
+}
+#roxo{
+    background-color: #9013D3;
+}
+#azulbb{
+    background-color: #05A9D0;
+}
+
+footer {
+    width: 100%;
+    background-color: #1f2532;
+    padding-bottom: 5px;
+}
+
+.privacidade img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.privacidade a {
+    height: auto;
+    /* opacity: 0.9; */
+}
+
+footer .navegacao {
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .navegacao div {
+    color: rgb(228, 228, 228);
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+footer .navegacao div {
+    font-family: Breve-Sans-Text-light;    
+}
+
+footer .navegacao div h5 {
+    font-size: 19px;
+}
+
+.fim-footer {
+    color: #fff;
+    text-align: center;
+    border-top: 2px solid transparent;
+    border-image: linear-gradient(90deg, #0071e3 1.31%, #0bfcfa 100%);
+    border-image-slice: 1;
+    padding-top: 10px;
+}
+
+.fim-footer img {
+    width: 100px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.fim-footer span {
+    font-size: 15px;
+    font-family: Breve-Sans-Text-light;
+}
+
+.redes {
+    width: 150px;
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.redes img {
+    width: 30px;
+}
+
+.menu-icon {
+    display: none;
+}
+
+.menu-icon img {
+    width: 30px;
+}
